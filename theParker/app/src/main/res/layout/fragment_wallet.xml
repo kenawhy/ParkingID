@@ -80,18 +80,19 @@
                 android:layout_centerInParent="true"
                 android:layout_marginTop="30sp"
                 android:id="@+id/layer4">
+
                 <TextView
+                    android:id="@+id/rupees1"
                     android:layout_width="70sp"
                     android:layout_height="match_parent"
-                    android:text="₹"
                     android:gravity="center_vertical|center_horizontal"
-                    android:textSize="50sp"
-                    android:id="@+id/rupees1"
-                    android:textColor="@color/colorWhite"/>
+                    android:text="Rp."
+                    android:textColor="@color/colorWhite"
+                    android:textSize="50sp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="00.0"
+                    android:text="0.00"
                     android:gravity="center_vertical|center_horizontal"
                     android:textSize="50sp"
                     android:layout_toRightOf="@+id/rupees1"
@@ -196,7 +197,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="40sp"
-                android:text="₹ 0.00"
+                android:text="Rp. 0.00"
                 android:layout_toRightOf="@+id/payout"
                 android:textSize="18sp"
                 android:layout_below="@id/earnings"
@@ -227,7 +228,7 @@
                 <TextView
                     android:layout_width="70sp"
                     android:layout_height="match_parent"
-                    android:text="₹"
+                    android:text="Rp"
                     android:gravity="center_vertical|center_horizontal"
                     android:textSize="50sp"
                     android:id="@+id/rupees"
@@ -235,7 +236,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="00.0"
+                    android:text="0.00"
                     android:gravity="center_vertical|center_horizontal"
                     android:textSize="50sp"
                     android:layout_toRightOf="@+id/rupees"

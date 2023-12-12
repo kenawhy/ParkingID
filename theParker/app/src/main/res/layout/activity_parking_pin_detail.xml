@@ -160,7 +160,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_toRightOf="@id/call_img"
-                        android:text="+91 1234567890"
+                        android:text="+63 85781612381"
                         android:textSize="17sp"
                         android:paddingStart="20sp"
                         android:gravity="center"
@@ -208,17 +208,17 @@
                         android:layout_marginTop="10sp"
                         android:background="@drawable/button_background_transparent"
                         android:layout_marginRight="15sp">
+
                         <TextView
                             android:id="@+id/spot_price"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:text="₹4/hr"
-                            android:gravity="center"
                             android:layout_centerInParent="true"
-                            android:textColor="@color/colorPrimary"
-                            android:textSize="17sp"
                             android:layout_marginRight="15sp"
-                            />
+                            android:gravity="center"
+                            android:text="Rp.3000/hr"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="17sp" />
                     </RelativeLayout>
                 </RelativeLayout>
             </RelativeLayout>

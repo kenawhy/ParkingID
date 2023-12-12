@@ -79,10 +79,10 @@
 
                 <TextView
                     android:id="@+id/spot_detail_layout"
-                    android:layout_width="40sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="₹"
+                    android:text="Rp"
                     android:textColor="@color/colorWhite"
                     android:textSize="35sp"
                     android:textStyle="bold" />
@@ -91,9 +91,10 @@
                     android:id="@+id/dia_package_price"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
                     android:layout_toRightOf="@id/spot_detail_layout"
                     android:gravity="center_vertical"
-                    android:text="500"
+                    android:text="5000"
                     android:textColor="@color/colorWhite"
                     android:textSize="35sp"
                     android:textStyle="bold" />
@@ -128,10 +129,10 @@
 
                 <TextView
                     android:id="@+id/layer8"
-                    android:layout_width="40sp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="₹"
+                    android:text="Rp"
                     android:textColor="@color/colorWhite"
                     android:textSize="35sp"
                     android:textStyle="bold" />
@@ -140,9 +141,10 @@
                     android:id="@+id/dia_wallet_balance"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
                     android:layout_toRightOf="@id/layer8"
                     android:gravity="center"
-                    android:text="500"
+                    android:text="50000"
                     android:textColor="@color/colorWhite"
                     android:textSize="35sp"
                     android:textStyle="bold" />
@@ -163,7 +165,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/dia_after_balance"
-            android:text="Balance after buying this Package: ₹200"/>
+            android:text="Balance after buying this Package: Rp 45000"/>
 
     </RelativeLayout>
 

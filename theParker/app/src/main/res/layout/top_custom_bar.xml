@@ -23,7 +23,7 @@
             android:fontFamily="@font/averia_sans_libre_bold"
             android:gravity="center_vertical"
             android:paddingStart="10sp"
-            android:text="TheParker"
+            android:text="ParkingID"
             android:textColor="@color/colorWhite"
             android:textSize="23sp" />
 

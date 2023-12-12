@@ -12,14 +12,17 @@
         <!--android:id="@+id/spotMap"/>-->
 
     <ImageView
-        android:layout_margin="5sp"
-        android:background="#1a9a0007"
+        android:id="@+id/spotMapImageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/spotMapImageView"
+        android:layout_marginStart="5sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginEnd="5sp"
+        android:layout_marginBottom="5sp"
+        android:background="#1a9a0007"
+        android:contentDescription="Map Image"
         android:scaleType="centerCrop"
-        android:src="@drawable/background_main"
-        android:contentDescription="Map Image" />
+        android:src="@drawable/background_main" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -57,7 +60,7 @@
         android:background="@drawable/bg_rectangle_light"
         android:textColor="@color/colorPrimary"
         android:id="@+id/spot_price"
-        android:text="₹ 50"/>
+        android:text="Rp 5000"/>
 
     <TextView
         android:layout_width="wrap_content"
